@@ -83,3 +83,14 @@ python manage.py runserver
 `Framework` : Django <br>
 `Database` : Sqlite3 <br>
 `Frontend` : Html,CSS,Bootstrap <br>
+
+
+### Command to install Python packages listed in a requirements.txt file.
+
+Command to install Python packages listed in a `requirements.txt` file is:
+
+```bash
+pip install -r requirements.txt
+```
+
+This command tells pip (Python's package installer) to install the packages listed in the `requirements.txt` file. The `-r` flag is used to specify that pip should install packages from a file.
